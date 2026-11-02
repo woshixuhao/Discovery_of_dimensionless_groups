@@ -1,0 +1,15 @@
+source: E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\data\dimensionless_dataset\dimensionless_coefficients.csv
+cv_threshold: 0.05
+classification rule: constant if std/abs(mean) <= cv_threshold
+
+coefficient CV statistics:
+coef_0 (u) | mean=7.9174042876e-01 | std=8.6306320738e-01 | cv=1.09008 | variable_related | strongest=Da corr=0.997898
+coef_1 (u^2) | mean=-8.0097077283e-01 | std=8.6208321659e-01 | cv=1.0763 | variable_related | strongest=Da corr=-0.993605
+coef_2 (u_x) | mean=-9.9892983466e-01 | std=1.5941530789e-03 | cv=0.00159586 | constant | strongest=U corr=-0.10592
+coef_3 (u_xx) | mean=1.6128194658e-02 | std=1.6168946152e-02 | cv=1.00253 | variable_related | strongest=Pe corr=-0.638592
+
+constant coefficients:
+coef_2 (u_x)
+
+variable-related coefficients:
+coef_0 (u), coef_1 (u^2), coef_3 (u_xx)

@@ -1,0 +1,6 @@
+source: e:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\all_discovered_equations.txt
+selected_equation_form: u_t = u + u^2 + u_x + u_xx
+frequency: 33/78
+term_labels: ['u', 'u^2', 'u_x', 'u_xx']
+csv: e:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\data\dimensionless_dataset\dimensionless_coefficients.csv
+npz: e:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\data\dimensionless_dataset\dimensionless_dataset.npz
