@@ -1,0 +1,704 @@
+[
+  {
+    "case_name": "case_000",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_000_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 5.559397209253802e-07,
+    "best_val_loss": 6.029083579051076e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_001",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_001_best.pt",
+    "best_epoch": 46500,
+    "best_train_loss": 7.58690987368027e-07,
+    "best_val_loss": 7.887691708674538e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_002",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_002_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 6.000519192639331e-07,
+    "best_val_loss": 5.735791432925907e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_003",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_003_best.pt",
+    "best_epoch": 45000,
+    "best_train_loss": 6.990453584876377e-07,
+    "best_val_loss": 7.003824293860816e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_004",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_004_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 8.701758815732319e-07,
+    "best_val_loss": 1.0095144489241648e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_005",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_005_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 9.949623063221225e-07,
+    "best_val_loss": 1.1251188425376313e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_006",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_006_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 1.0416003988211742e-06,
+    "best_val_loss": 9.431977900931088e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_007",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_007_best.pt",
+    "best_epoch": 42000,
+    "best_train_loss": 1.5156502968238783e-06,
+    "best_val_loss": 1.3650925438923878e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_008",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_008_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 7.085724291755469e-07,
+    "best_val_loss": 6.109477794780105e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_009",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_009_best.pt",
+    "best_epoch": 46000,
+    "best_train_loss": 1.680096261225117e-06,
+    "best_val_loss": 1.8122196934200474e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_010",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_010_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 1.4167280824040063e-06,
+    "best_val_loss": 1.5792644489920349e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_011",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_011_best.pt",
+    "best_epoch": 46500,
+    "best_train_loss": 8.868076406542968e-07,
+    "best_val_loss": 9.466979804528819e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_012",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_012_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 8.927081580623053e-07,
+    "best_val_loss": 8.969338409769989e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_013",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_013_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 6.652892921010789e-07,
+    "best_val_loss": 7.291736210390809e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_014",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_014_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 8.280078986899753e-07,
+    "best_val_loss": 8.955593671089446e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_015",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_015_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 1.4743740166522912e-06,
+    "best_val_loss": 1.7741085684974678e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_016",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_016_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 4.112736462502653e-07,
+    "best_val_loss": 4.664456128011807e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_017",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_017_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 6.689668907711166e-07,
+    "best_val_loss": 7.124702392502513e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_018",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_018_best.pt",
+    "best_epoch": 48500,
+    "best_train_loss": 3.85768089472549e-06,
+    "best_val_loss": 3.3267879189224914e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_019",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_019_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 3.825242856692057e-06,
+    "best_val_loss": 3.5670864235726185e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_020",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_020_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 8.050933502090629e-07,
+    "best_val_loss": 8.159629487636266e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_021",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_021_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 2.645334234330221e-06,
+    "best_val_loss": 1.556644974698429e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_022",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_022_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 6.458058123826049e-07,
+    "best_val_loss": 6.584349421245861e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_023",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_023_best.pt",
+    "best_epoch": 47500,
+    "best_train_loss": 2.153435616492061e-06,
+    "best_val_loss": 2.2659460228169337e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_024",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_024_best.pt",
+    "best_epoch": 42000,
+    "best_train_loss": 9.879329354589572e-07,
+    "best_val_loss": 1.070987195816997e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_025",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_025_best.pt",
+    "best_epoch": 46500,
+    "best_train_loss": 7.83642690294073e-07,
+    "best_val_loss": 8.28842757982784e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_026",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_026_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 1.0946550901280716e-06,
+    "best_val_loss": 1.220029616888496e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_027",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_027_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 9.994629408538458e-07,
+    "best_val_loss": 1.028956148729776e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_028",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_028_best.pt",
+    "best_epoch": 42500,
+    "best_train_loss": 3.746582422081701e-07,
+    "best_val_loss": 3.853682528642821e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_029",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_029_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 1.967027856153436e-06,
+    "best_val_loss": 2.145479584214627e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_030",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_030_best.pt",
+    "best_epoch": 47500,
+    "best_train_loss": 5.395550033426844e-07,
+    "best_val_loss": 5.470544692798285e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_031",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_031_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 7.407152793348359e-07,
+    "best_val_loss": 7.159066512940626e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_032",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_032_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 8.189633717847755e-07,
+    "best_val_loss": 8.00414909463143e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_033",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_033_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 1.02619958397554e-06,
+    "best_val_loss": 1.0061062312161084e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_034",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_034_best.pt",
+    "best_epoch": 48500,
+    "best_train_loss": 1.3051443374934024e-06,
+    "best_val_loss": 1.4606238210035372e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_035",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_035_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 4.723393658423447e-07,
+    "best_val_loss": 5.161415401744307e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_036",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_036_best.pt",
+    "best_epoch": 48500,
+    "best_train_loss": 6.275870418903651e-07,
+    "best_val_loss": 6.593549528588483e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_037",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_037_best.pt",
+    "best_epoch": 43500,
+    "best_train_loss": 5.284864528221078e-07,
+    "best_val_loss": 5.510960932042508e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_038",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_038_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 8.132975608532433e-07,
+    "best_val_loss": 8.898333021534199e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_039",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_039_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 5.501332225321676e-07,
+    "best_val_loss": 5.887721385988698e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_040",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_040_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 8.219257665587065e-07,
+    "best_val_loss": 9.287186344408838e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_041",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_041_best.pt",
+    "best_epoch": 48500,
+    "best_train_loss": 5.905504849579302e-07,
+    "best_val_loss": 5.746059059674735e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_042",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_042_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 1.7069646673917305e-06,
+    "best_val_loss": 1.5957990626702667e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_043",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_043_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 9.480132803219021e-07,
+    "best_val_loss": 9.510670224699425e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_044",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_044_best.pt",
+    "best_epoch": 47000,
+    "best_train_loss": 1.078257582776132e-06,
+    "best_val_loss": 1.226076165039558e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_045",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_045_best.pt",
+    "best_epoch": 44500,
+    "best_train_loss": 1.5305215583794052e-06,
+    "best_val_loss": 1.5650867908334476e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_046",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_046_best.pt",
+    "best_epoch": 48500,
+    "best_train_loss": 1.7382989199177246e-06,
+    "best_val_loss": 1.6525890487173456e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_047",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_047_best.pt",
+    "best_epoch": 44500,
+    "best_train_loss": 2.099679932143772e-06,
+    "best_val_loss": 2.0124036836932646e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_048",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_048_best.pt",
+    "best_epoch": 45000,
+    "best_train_loss": 2.1421317342174007e-06,
+    "best_val_loss": 2.2164604160934687e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_049",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_049_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 2.847478981493623e-06,
+    "best_val_loss": 3.0499199965561274e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_050",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_050_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 1.3387660828811931e-06,
+    "best_val_loss": 1.4012081237524399e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_051",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_051_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 6.008607442709035e-07,
+    "best_val_loss": 5.868935772923578e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_052",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_052_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 6.882441994093824e-07,
+    "best_val_loss": 7.158903940762684e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_053",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_053_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 1.7038380519807106e-06,
+    "best_val_loss": 1.808764523048012e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_054",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_054_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 4.675465277159674e-07,
+    "best_val_loss": 4.786962790603866e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_055",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_055_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 6.614167773477675e-07,
+    "best_val_loss": 7.309949410228e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_056",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_056_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 1.3974805597172235e-06,
+    "best_val_loss": 1.5830822803764022e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_057",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_057_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 5.922170771555102e-07,
+    "best_val_loss": 5.935290232628176e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_058",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_058_best.pt",
+    "best_epoch": 38500,
+    "best_train_loss": 7.324173907363729e-07,
+    "best_val_loss": 7.745213679299923e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_059",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_059_best.pt",
+    "best_epoch": 47500,
+    "best_train_loss": 4.281185738364002e-06,
+    "best_val_loss": 4.815799911739305e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_060",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_060_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 9.200055046676425e-07,
+    "best_val_loss": 1.0288388239132473e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_061",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_061_best.pt",
+    "best_epoch": 49000,
+    "best_train_loss": 2.0263096303096972e-06,
+    "best_val_loss": 2.2186927708389703e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_062",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_062_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 1.4129292367215385e-06,
+    "best_val_loss": 1.220918306898966e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_063",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_063_best.pt",
+    "best_epoch": 45000,
+    "best_train_loss": 4.79351820104057e-06,
+    "best_val_loss": 4.477613401832059e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_064",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_064_best.pt",
+    "best_epoch": 46000,
+    "best_train_loss": 1.262083515030099e-06,
+    "best_val_loss": 1.2605001984411501e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_065",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_065_best.pt",
+    "best_epoch": 44500,
+    "best_train_loss": 6.638145464421541e-07,
+    "best_val_loss": 6.084908932280086e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_066",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_066_best.pt",
+    "best_epoch": 46500,
+    "best_train_loss": 3.400207617687556e-07,
+    "best_val_loss": 3.2517735348847054e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_067",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_067_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 1.2247551239852328e-06,
+    "best_val_loss": 1.23104939575569e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_068",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_068_best.pt",
+    "best_epoch": 47500,
+    "best_train_loss": 1.0891828878811793e-06,
+    "best_val_loss": 1.1490891438370454e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_069",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_069_best.pt",
+    "best_epoch": 44000,
+    "best_train_loss": 1.22196047414036e-06,
+    "best_val_loss": 1.2615580544661498e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_070",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_070_best.pt",
+    "best_epoch": 48500,
+    "best_train_loss": 1.8851555978471879e-06,
+    "best_val_loss": 2.025970388785936e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_071",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_071_best.pt",
+    "best_epoch": 50000,
+    "best_train_loss": 1.22012522751902e-06,
+    "best_val_loss": 1.1464047702247626e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_072",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_072_best.pt",
+    "best_epoch": 43000,
+    "best_train_loss": 1.3644784075950156e-06,
+    "best_val_loss": 1.2519178653747076e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_073",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_073_best.pt",
+    "best_epoch": 49500,
+    "best_train_loss": 1.1420721648391918e-06,
+    "best_val_loss": 1.1891310123246512e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_074",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_074_best.pt",
+    "best_epoch": 46000,
+    "best_train_loss": 8.474397645841236e-07,
+    "best_val_loss": 8.271163096651435e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_075",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_075_best.pt",
+    "best_epoch": 48000,
+    "best_train_loss": 1.9867131868522847e-06,
+    "best_val_loss": 2.120521685355925e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_076",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_076_best.pt",
+    "best_epoch": 47000,
+    "best_train_loss": 1.6568641285630292e-06,
+    "best_val_loss": 1.751210106704093e-06,
+    "n_train": 10342,
+    "n_val": 2586
+  },
+  {
+    "case_name": "case_077",
+    "model_path": "e:\\python_project\\Discovery_of_dimensionless_variable\\Reaction-advection-diffusion-Pe-Da\\model\\case_077_best.pt",
+    "best_epoch": 43000,
+    "best_train_loss": 8.963552886598336e-07,
+    "best_val_loss": 8.884000521902635e-07,
+    "n_train": 10342,
+    "n_val": 2586
+  }
+]
