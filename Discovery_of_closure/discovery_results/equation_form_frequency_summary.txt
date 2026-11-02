@@ -1,0 +1,41 @@
+source: e:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\all_discovered_equations.txt
+total_cases: 78
+unique_equation_forms: 31
+
+most_frequent_equation_form:
+frequency: 33/78
+equation_form: u_t = u + u^2 + u_x + u_xx
+cases: ['case_000', 'case_001', 'case_002', 'case_004', 'case_005', 'case_008', 'case_011', 'case_013', 'case_014', 'case_015', 'case_018', 'case_021', 'case_024', 'case_025', 'case_026', 'case_032', 'case_044', 'case_045', 'case_047', 'case_049', 'case_050', 'case_053', 'case_056', 'case_058', 'case_062', 'case_063', 'case_065', 'case_070', 'case_071', 'case_073', 'case_074', 'case_075', 'case_077']
+
+all_equation_form_frequencies:
+1. frequency: 33/78 | equation_form: u_t = u + u^2 + u_x + u_xx | cases: ['case_000', 'case_001', 'case_002', 'case_004', 'case_005', 'case_008', 'case_011', 'case_013', 'case_014', 'case_015', 'case_018', 'case_021', 'case_024', 'case_025', 'case_026', 'case_032', 'case_044', 'case_045', 'case_047', 'case_049', 'case_050', 'case_053', 'case_056', 'case_058', 'case_062', 'case_063', 'case_065', 'case_070', 'case_071', 'case_073', 'case_074', 'case_075', 'case_077']
+2. frequency: 13/78 | equation_form: u_t = u + u_x + u_xx | cases: ['case_003', 'case_027', 'case_028', 'case_030', 'case_033', 'case_034', 'case_035', 'case_055', 'case_057', 'case_060', 'case_066', 'case_067', 'case_069']
+3. frequency: 2/78 | equation_form: u_t = u + u^2 + d/dx(u u_xxx) + u_x + u_xx | cases: ['case_031', 'case_048']
+4. frequency: 2/78 | equation_form: u_t = d^2 / dx^2(u) + u^2 + u_x + d^2 / dx^2(u_xx) | cases: ['case_042', 'case_061']
+5. frequency: 2/78 | equation_form: u_t = u + u^2 + u u_x + u_x + u_xx | cases: ['case_046', 'case_064']
+6. frequency: 1/78 | equation_form: u_t = d/dx(u) + u^2 + u u_xx + d/dx(u_x) + d^2 / dx^2(u_xx) | cases: ['case_006']
+7. frequency: 1/78 | equation_form: u_t = u + d^2 / dx^2(u u_xx) + u_x + u_xx | cases: ['case_007']
+8. frequency: 1/78 | equation_form: u_t = u + d^3 / dx^3(u u_x u_xx^2) + d^2 / dx^2(u u_xx) + d/dx(u u_xxx) + u_x + u_xx | cases: ['case_009']
+9. frequency: 1/78 | equation_form: u_t = u + d^2 / dx^2(u^2) + u^2 u_x^2 + d/dx(u u_xx) + u_x + u_xx^2 | cases: ['case_010']
+10. frequency: 1/78 | equation_form: u_t = u + u^2 + d^3 / dx^3(u u_x^4) + d/dx(u u_xx) + u_x + u_xx | cases: ['case_012']
+11. frequency: 1/78 | equation_form: u_t = u + u^3 + u_x + u_xx | cases: ['case_016']
+12. frequency: 1/78 | equation_form: u_t = u + u^2 + d^3 / dx^3(u u_xx) + u_x + u_x u_xx^2 + u_xx | cases: ['case_017']
+13. frequency: 1/78 | equation_form: u_t = u + u^2 + d/dx(u u_x) + u_x + d^3 / dx^3(u_x u_xx) + d^3 / dx^3(u_xx) | cases: ['case_019']
+14. frequency: 1/78 | equation_form: u_t = u + u^2 + d^3 / dx^3(u u_x) + u_x + u_xx | cases: ['case_020']
+15. frequency: 1/78 | equation_form: u_t = u + u^2 + u u_x^2 u_xx + d^2 / dx^2(u u_xx) + u u_xx^2 + d/dx(u u_xxx) + u_x + d^2 / dx^2(u_xx) | cases: ['case_022']
+16. frequency: 1/78 | equation_form: u_t = u + u^2 + d/dx(u^2 u_xx) + u u_x^2 + u_x + d^3 / dx^3(u_x^2) + u_xx | cases: ['case_023']
+17. frequency: 1/78 | equation_form: u_t = u + u^2 + u^2 u_x^3 + u_x + u_xx | cases: ['case_029']
+18. frequency: 1/78 | equation_form: u_t = u + u_x + u_x^2 + u_xx | cases: ['case_036']
+19. frequency: 1/78 | equation_form: u_t = u + u^2 + u^2 u_xx^2 + u_x + u_xx | cases: ['case_037']
+20. frequency: 1/78 | equation_form: u_t = u + u^2 + d/dx(u^2 u_x) + d^2 / dx^2(u^2 u_xx) + d/dx(u u_x u_xx) + d/dx(u u_xxx) + u_x + d^2 / dx^2(u_x u_xx^2) | cases: ['case_038']
+21. frequency: 1/78 | equation_form: u_t = u + u^2 + d/dx(u u_xx) + u_x + u_xx | cases: ['case_039']
+22. frequency: 1/78 | equation_form: u_t = u + u^2 + d^2 / dx^2(u u_x^2 u_xx) + d^2 / dx^2(u u_xx) + u_x + u_xx | cases: ['case_040']
+23. frequency: 1/78 | equation_form: u_t = u + u^2 + u^3 + d^3 / dx^3(u u_xxx) + u_x + u_xx | cases: ['case_041']
+24. frequency: 1/78 | equation_form: u_t = d/dx(u) + u^2 + d/dx(u_x) + u_x u_xx + d^2 / dx^2(u_xx) | cases: ['case_043']
+25. frequency: 1/78 | equation_form: u_t = u + u^2 + d/dx(u u_x) + u_x + u_xx | cases: ['case_051']
+26. frequency: 1/78 | equation_form: u_t = u + u^2 + d^2 / dx^2(u u_x) + d^2 / dx^2(u u_xx) + u_x + u_xx | cases: ['case_052']
+27. frequency: 1/78 | equation_form: u_t = d/dx(u) + u^2 + d/dx(u_x) | cases: ['case_054']
+28. frequency: 1/78 | equation_form: u_t = u + u^2 + u_x + d/dx(u_x u_xx) + u_xx | cases: ['case_059']
+29. frequency: 1/78 | equation_form: u_t = u + u^2 + d^2 / dx^2(u u_xx) + u_x + u_xx | cases: ['case_068']
+30. frequency: 1/78 | equation_form: u_t = d/dx(u) + u^2 + u^3 + u_xx | cases: ['case_072']
+31. frequency: 1/78 | equation_form: u_t = u + u^2 + u^2 u_xx + u_x + u_xx | cases: ['case_076']

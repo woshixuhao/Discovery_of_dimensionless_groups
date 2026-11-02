@@ -1,0 +1,779 @@
+case: case_000
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_000_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.005, 'k': 0.2, 'Pe': 50.0, 'Da': 0.2}
+fitness: 1.3452570002e-04
+equation:
+u_t = -9.995602e-01*u_x -2.170887e-01*u^2 +1.987480e-02*u_xx +2.108507e-01*u
+gene: [[1], [0, 0], [2], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9995602259962271, -0.2170886966628142, 0.01987480093653623, 0.21085071292099808]
+
+case: case_001
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_001_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.005, 'k': 0.5, 'Pe': 50.0, 'Da': 0.5}
+fitness: 1.3629753328e-04
+equation:
+u_t = -9.998825e-01*u_x +1.953022e-02*u_xx -5.382963e-01*u^2 +5.233336e-01*u
+gene: [[1], [2], [0, 0], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9998825398222667, 0.019530215207539642, -0.5382963399992386, 0.5233335521168961]
+
+case: case_002
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_002_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.005, 'k': 1.0, 'Pe': 50.0, 'Da': 1.0}
+fitness: 1.2749865848e-04
+equation:
+u_t = -1.003750e+00*u^2 +1.002585e+00*u -9.989182e-01*u_x +1.995289e-02*u_xx
+gene: [[0, 0], [0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-1.0037504823586771, 1.0025851355128883, -0.9989182296269116, 0.019952889122133048]
+
+case: case_003
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_003_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.01, 'k': 0.2, 'Pe': 25.0, 'Da': 0.2}
+fitness: 1.5241915533e-04
+equation:
+u_t = 4.241935e-02*u_xx +8.557034e-02*u -9.967773e-01*u_x
+gene: [[2], [0], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.04241934778216706, 0.08557034147752376, -0.9967772749013877]
+
+case: case_004
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_004_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.01, 'k': 0.5, 'Pe': 25.0, 'Da': 0.5}
+fitness: 1.9141151754e-04
+equation:
+u_t = 3.680904e-02*u_xx -7.451152e-01*u^2 -9.983969e-01*u_x +6.478829e-01*u
+gene: [[2], [0, 0], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.03680904175540665, -0.7451151673662464, -0.9983969488837289, 0.6478828849531852]
+
+case: case_005
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_005_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.01, 'k': 1.0, 'Pe': 25.0, 'Da': 1.0}
+fitness: 1.4511491158e-04
+equation:
+u_t = -9.986569e-01*u_x -1.028642e+00*u^2 +1.018894e+00*u +3.983431e-02*u_xx
+gene: [[1], [0, 0], [0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9986569317451122, -1.0286423524948072, 1.018893717097849, 0.03983431106446889]
+
+case: case_006
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_006_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.02, 'k': 0.2, 'Pe': 12.5, 'Da': 0.2}
+fitness: 2.3989660259e-04
+equation:
+u_t = 1.598630e-01*u^2 -1.004973e+00*d/dx(u) +8.500931e-03*u u_xx +8.509828e-02*d/dx(u_x) +1.091569e-04*d^2 / dx^2(u_xx)
+gene: [[0, 0], [0], [0, 2], [1], [2]]
+gene_diff: [[0, 0], [0, 1], [0, 0], [0, 1], [0, 2]]
+coef: [0.15986302996179497, -1.0049732577228376, 0.008500931419960087, 0.08509827542588604, 0.00010915688655516261]
+
+case: case_007
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_007_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.02, 'k': 0.5, 'Pe': 12.5, 'Da': 0.5}
+fitness: 2.7432517426e-04
+equation:
+u_t = 9.210666e-02*u_xx +2.117794e-04*d^2 / dx^2(u u_xx) +2.002644e-01*u -1.017901e+00*u_x
+gene: [[2], [0, 2], [0], [1]]
+gene_diff: [[0, 0], [0, 2], [0, 0], [0, 0]]
+coef: [0.09210666397645444, 0.0002117794034249747, 0.2002643770623802, -1.017901086349584]
+
+case: case_008
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_008_ann_metadata.npz
+variables: {'U': 0.5, 'L': 0.5, 'D': 0.02, 'k': 1.0, 'Pe': 12.5, 'Da': 1.0}
+fitness: 1.6121485003e-04
+equation:
+u_t = -1.038385e+00*u^2 +7.888880e-02*u_xx +1.024491e+00*u -1.000822e+00*u_x
+gene: [[0, 0], [2], [0], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-1.0383849267922618, 0.07888880330111382, 1.0244908409199223, -1.000822114205049]
+
+case: case_009
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_009_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.005, 'k': 0.2, 'Pe': 100.0, 'Da': 0.4}
+fitness: 2.9961965676e-04
+equation:
+u_t = 6.582655e-11*d^3 / dx^3(u u_x u_xx^2) +1.059512e-04*d/dx(u u_xxx) +1.485959e-02*u_xx -6.443761e-05*d^2 / dx^2(u u_xx) -9.964614e-01*u_x +1.553943e-01*u
+gene: [[0, 1, 2, 2], [0, 3], [2], [0, 2], [1], [0]]
+gene_diff: [[0, 3], [0, 1], [0, 0], [0, 2], [0, 0], [0, 0]]
+coef: [6.582655328778322e-11, 0.00010595115537644985, 0.014859589325372685, -6.44376050254397e-05, -0.996461438156961, 0.15539426503152765]
+
+case: case_010
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_010_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.005, 'k': 0.5, 'Pe': 100.0, 'Da': 1.0}
+fitness: 6.4099575574e-04
+equation:
+u_t = 2.579371e-01*u +5.889698e-04*u_xx^2 +1.336421e-05*d/dx(u u_xx) +1.241362e-02*d^2 / dx^2(u^2) +3.365859e-02*u^2 u_x^2 -9.978925e-01*u_x
+gene: [[0], [2, 2], [0, 2], [0, 0], [0, 0, 1, 1], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 1], [0, 2], [0, 0], [0, 0]]
+coef: [0.25793714979664445, 0.000588969792283345, 1.3364211896532033e-05, 0.012413617213588796, 0.03365859357682897, -0.9978924586846861]
+
+case: case_011
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_011_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.005, 'k': 1.0, 'Pe': 100.0, 'Da': 2.0}
+fitness: 1.1631694866e-04
+equation:
+u_t = -9.989257e-01*u_x +2.001699e+00*u -2.002199e+00*u^2 +9.963077e-03*u_xx
+gene: [[1], [0], [0, 0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9989257300940818, 2.001699298391638, -2.002199088040794, 0.009963077146224717]
+
+case: case_012
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_012_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.01, 'k': 0.2, 'Pe': 50.0, 'Da': 0.4}
+fitness: 2.5707185376e-04
+equation:
+u_t = 1.995715e-02*u_xx -7.966607e-08*d^3 / dx^3(u u_x^4) +4.068750e-01*u -9.999299e-01*u_x -4.100655e-01*u^2 -2.549136e-05*d/dx(u u_xx)
+gene: [[2], [0, 1, 1, 1, 1], [0], [1], [0, 0], [0, 2]]
+gene_diff: [[0, 0], [0, 3], [0, 0], [0, 0], [0, 0], [0, 1]]
+coef: [0.019957154726084024, -7.966606501301441e-08, 0.4068749593430667, -0.999929940775798, -0.4100655297558637, -2.5491358185254542e-05]
+
+case: case_013
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_013_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.01, 'k': 0.5, 'Pe': 50.0, 'Da': 1.0}
+fitness: 1.2464215768e-04
+equation:
+u_t = -9.992359e-01*u_x -1.011140e+00*u^2 +1.988530e-02*u_xx +1.007571e+00*u
+gene: [[1], [0, 0], [2], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9992359128292482, -1.0111398345624132, 0.019885295609924723, 1.0075714732333392]
+
+case: case_014
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_014_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.01, 'k': 1.0, 'Pe': 50.0, 'Da': 2.0}
+fitness: 1.2062808783e-04
+equation:
+u_t = -9.999271e-01*u_x +1.999753e+00*u -2.000112e+00*u^2 +1.995277e-02*u_xx
+gene: [[1], [0], [0, 0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9999271433076377, 1.9997532228472923, -2.000112334252189, 0.01995276778731819]
+
+case: case_015
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_015_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.02, 'k': 0.2, 'Pe': 25.0, 'Da': 0.4}
+fitness: 1.7757931835e-04
+equation:
+u_t = -9.992626e-01*u_x -5.521769e-01*u^2 +4.887999e-01*u +3.844195e-02*u_xx
+gene: [[1], [0, 0], [0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9992625955792677, -0.5521769174639577, 0.4887999424435283, 0.03844194685699355]
+
+case: case_016
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_016_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.02, 'k': 0.5, 'Pe': 25.0, 'Da': 1.0}
+fitness: 1.8900025487e-04
+equation:
+u_t = -1.000061e+00*u_x +3.907405e-02*u_xx +7.145643e-01*u -8.448817e-01*u^3
+gene: [[1], [2], [0], [0, 0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-1.000061368649443, 0.03907404721512565, 0.7145643312556857, -0.8448817346194647]
+
+case: case_017
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_017_ann_metadata.npz
+variables: {'U': 0.5, 'L': 1.0, 'D': 0.02, 'k': 1.0, 'Pe': 25.0, 'Da': 2.0}
+fitness: 2.4911149973e-04
+equation:
+u_t = -9.988509e-01*u_x +4.010305e-02*u_xx -1.998694e+00*u^2 -1.413471e-05*u_x u_xx^2 +1.999088e+00*u +5.036856e-07*d^3 / dx^3(u u_xx)
+gene: [[1], [2], [0, 0], [1, 2, 2], [0], [0, 2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 3]]
+coef: [-0.9988508873123927, 0.04010305223486371, -1.9986941403002394, -1.4134711866155091e-05, 1.9990878130000311, 5.036856146692281e-07]
+
+case: case_018
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_018_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.005, 'k': 0.2, 'Pe': 200.0, 'Da': 0.8}
+fitness: 1.4596492768e-04
+equation:
+u_t = 4.941972e-03*u_xx -8.120401e-01*u^2 +8.079252e-01*u -9.990766e-01*u_x
+gene: [[2], [0, 0], [0], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.004941971981576921, -0.8120400781408245, 0.807925164018491, -0.9990766008471861]
+
+case: case_019
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_019_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.005, 'k': 0.5, 'Pe': 200.0, 'Da': 2.0}
+fitness: 3.8695524763e-04
+equation:
+u_t = -2.006356e+00*u^2 +6.423071e-03*d/dx(u u_x) +9.547064e-08*d^3 / dx^3(u_xx) -9.986325e-01*u_x -5.996892e-08*d^3 / dx^3(u_x u_xx) +2.002670e+00*u
+gene: [[0, 0], [0, 1], [2], [1], [1, 2], [0]]
+gene_diff: [[0, 0], [0, 1], [0, 3], [0, 0], [0, 3], [0, 0]]
+coef: [-2.0063563041756063, 0.0064230706172679775, 9.547064295532838e-08, -0.9986325268303768, -5.996891671889584e-08, 2.002670359006809]
+
+case: case_020
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_020_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.005, 'k': 1.0, 'Pe': 200.0, 'Da': 4.0}
+fitness: 2.0586050238e-04
+equation:
+u_t = 5.230416e-03*u_xx +2.583599e-06*d^3 / dx^3(u u_x) -3.993612e+00*u^2 -9.985887e-01*u_x +3.994587e+00*u
+gene: [[2], [0, 1], [0, 0], [1], [0]]
+gene_diff: [[0, 0], [0, 3], [0, 0], [0, 0], [0, 0]]
+coef: [0.0052304157505252075, 2.583598914696308e-06, -3.993612053487769, -0.9985886768085258, 3.9945870607581764]
+
+case: case_021
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_021_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.01, 'k': 0.2, 'Pe': 100.0, 'Da': 0.8}
+fitness: 1.3841911317e-04
+equation:
+u_t = -9.990028e-01*u_x +9.926582e-03*u_xx +8.144874e-01*u -8.152689e-01*u^2
+gene: [[1], [2], [0], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9990028480283699, 0.009926581624804162, 0.8144873872805493, -0.8152689383317118]
+
+case: case_022
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_022_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.01, 'k': 0.5, 'Pe': 100.0, 'Da': 2.0}
+fitness: 9.4837840770e-04
+equation:
+u_t = -9.996393e-01*u_x -2.495191e+00*u^2 -1.015046e-04*d^2 / dx^2(u_xx) -1.312702e-04*u u_xx^2 +1.833938e-04*d/dx(u u_xxx) +2.385805e+00*u -9.666814e-05*d^2 / dx^2(u u_xx) +5.756981e-04*u u_x^2 u_xx
+gene: [[1], [0, 0], [2], [0, 2, 2], [0, 3], [0], [0, 2], [0, 1, 1, 2]]
+gene_diff: [[0, 0], [0, 0], [0, 2], [0, 0], [0, 1], [0, 0], [0, 2], [0, 0]]
+coef: [-0.9996392643332842, -2.4951908597300805, -0.00010150458011795401, -0.00013127023652117017, 0.0001833937688415141, 2.385805283903155, -9.666814023891251e-05, 0.0005756981480469313]
+
+case: case_023
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_023_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.01, 'k': 1.0, 'Pe': 100.0, 'Da': 4.0}
+fitness: 4.1318493895e-04
+equation:
+u_t = -2.724601e-07*d^3 / dx^3(u_x^2) -1.929021e-03*u u_x^2 +4.000229e+00*u +9.969808e-03*u_xx -3.998759e+00*u^2 -1.000918e+00*u_x +1.385553e-05*d/dx(u^2 u_xx)
+gene: [[1, 1], [0, 1, 1], [0], [2], [0, 0], [1], [0, 0, 2]]
+gene_diff: [[0, 3], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 1]]
+coef: [-2.724600525007149e-07, -0.0019290205729162587, 4.000229047627444, 0.00996980775864328, -3.998758647973454, -1.0009181693727272, 1.3855529114307963e-05]
+
+case: case_024
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_024_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.02, 'k': 0.2, 'Pe': 50.0, 'Da': 0.8}
+fitness: 1.2540902446e-04
+equation:
+u_t = 7.948839e-01*u -7.921344e-01*u^2 +2.009289e-02*u_xx -9.996843e-01*u_x
+gene: [[0], [0, 0], [2], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.7948839372587073, -0.7921344497712597, 0.020092891688867923, -0.9996843093646257]
+
+case: case_025
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_025_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.02, 'k': 0.5, 'Pe': 50.0, 'Da': 2.0}
+fitness: 1.5364333839e-04
+equation:
+u_t = 1.999014e-02*u_xx -9.985980e-01*u_x +2.005463e+00*u -2.007049e+00*u^2
+gene: [[2], [1], [0], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.019990137003861347, -0.99859795243371, 2.005463143200718, -2.0070492760775376]
+
+case: case_026
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_026_ann_metadata.npz
+variables: {'U': 0.5, 'L': 2.0, 'D': 0.02, 'k': 1.0, 'Pe': 50.0, 'Da': 4.0}
+fitness: 1.6835709945e-04
+equation:
+u_t = 1.981106e-02*u_xx -9.967647e-01*u_x +4.011178e+00*u -4.012550e+00*u^2
+gene: [[2], [1], [0], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.0198110572455808, -0.9967646629030075, 4.011177857888132, -4.012549938216198]
+
+case: case_027
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_027_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.005, 'k': 0.2, 'Pe': 100.0, 'Da': 0.1}
+fitness: 1.0050713945e-04
+equation:
+u_t = 3.930243e-02*u -9.993661e-01*u_x +1.031665e-02*u_xx
+gene: [[0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.03930243050599269, -0.9993660554645983, 0.010316654500037848]
+
+case: case_028
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_028_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.005, 'k': 0.5, 'Pe': 100.0, 'Da': 0.25}
+fitness: 2.2574192990e-04
+equation:
+u_t = 9.687182e-02*u -9.988953e-01*u_x +1.098754e-02*u_xx
+gene: [[0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.09687182003705354, -0.9988953334095504, 0.010987542649049227]
+
+case: case_029
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_029_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.005, 'k': 1.0, 'Pe': 100.0, 'Da': 0.5}
+fitness: 2.4578524281e-04
+equation:
+u_t = 9.882017e-03*u_xx -5.113656e-01*u^2 -9.974263e-01*u_x +5.077119e-01*u -2.745898e-04*u^2 u_x^3
+gene: [[2], [0, 0], [1], [0], [0, 0, 1, 1, 1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.009882016997400675, -0.5113656429341715, -0.9974263289955491, 0.5077119347251652, -0.00027458976627722456]
+
+case: case_030
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_030_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.01, 'k': 0.2, 'Pe': 50.0, 'Da': 0.1}
+fitness: 1.1089039325e-04
+equation:
+u_t = 2.065917e-02*u_xx -1.000399e+00*u_x +4.130905e-02*u
+gene: [[2], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.020659171401802883, -1.0003994218139851, 0.04130904726652061]
+
+case: case_031
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_031_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.01, 'k': 0.5, 'Pe': 50.0, 'Da': 0.25}
+fitness: 1.6599109336e-04
+equation:
+u_t = 2.180172e-02*u_xx -1.755073e-01*u^2 +1.745419e-05*d/dx(u u_xxx) -1.000072e+00*u_x +2.064857e-01*u
+gene: [[2], [0, 0], [0, 3], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 1], [0, 0], [0, 0]]
+coef: [0.021801719128893737, -0.17550727546594264, 1.7454186935994315e-05, -1.0000716047734455, 0.2064856569119792]
+
+case: case_032
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_032_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.01, 'k': 1.0, 'Pe': 50.0, 'Da': 0.5}
+fitness: 1.3992911585e-04
+equation:
+u_t = 5.009241e-01*u -5.027360e-01*u^2 -9.995119e-01*u_x +2.019671e-02*u_xx
+gene: [[0], [0, 0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.5009241427071848, -0.5027360019091568, -0.9995118966283071, 0.020196705343011902]
+
+case: case_033
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_033_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.02, 'k': 0.2, 'Pe': 25.0, 'Da': 0.1}
+fitness: 1.3299234099e-04
+equation:
+u_t = -1.001882e+00*u_x +4.125090e-02*u_xx +4.434862e-02*u
+gene: [[1], [2], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [-1.0018821980193175, 0.04125090083066966, 0.04434861681988122]
+
+case: case_034
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_034_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.02, 'k': 0.5, 'Pe': 25.0, 'Da': 0.25}
+fitness: 1.6131289785e-04
+equation:
+u_t = 4.260947e-02*u_xx -9.989692e-01*u_x +1.050548e-01*u
+gene: [[2], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.04260947442424917, -0.9989692334705375, 0.1050547851591266]
+
+case: case_035
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_035_ann_metadata.npz
+variables: {'U': 1.0, 'L': 0.5, 'D': 0.02, 'k': 1.0, 'Pe': 25.0, 'Da': 0.5}
+fitness: 3.0218979965e-04
+equation:
+u_t = 1.994705e-01*u +4.444353e-02*u_xx -9.925418e-01*u_x
+gene: [[0], [2], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.19947052477870458, 0.044443525630018854, -0.9925418245964427]
+
+case: case_036
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_036_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.005, 'k': 0.2, 'Pe': 200.0, 'Da': 0.2}
+fitness: 1.3770725508e-04
+equation:
+u_t = 5.601685e-03*u_xx +3.143060e-03*u_x^2 +6.430035e-02*u -9.985462e-01*u_x
+gene: [[2], [1, 1], [0], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.005601685442577353, 0.0031430602734985494, 0.06430035314164032, -0.9985461860116281]
+
+case: case_037
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_037_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.005, 'k': 0.5, 'Pe': 200.0, 'Da': 0.5}
+fitness: 1.9839053575e-04
+equation:
+u_t = 5.059677e-03*u_xx -1.824973e-06*u^2 u_xx^2 -9.986479e-01*u_x -4.875872e-01*u^2 +4.919128e-01*u
+gene: [[2], [0, 0, 2, 2], [1], [0, 0], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.005059676908968636, -1.824973195791605e-06, -0.9986478611747751, -0.48758724349967236, 0.49191280593261977]
+
+case: case_038
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_038_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.005, 'k': 1.0, 'Pe': 200.0, 'Da': 1.0}
+fitness: 6.3737716600e-04
+equation:
+u_t = -9.999381e-01*u_x +2.162653e-04*d^2 / dx^2(u^2 u_xx) -1.642064e-04*d/dx(u u_xxx) +6.373515e-09*d^2 / dx^2(u_x u_xx^2) +1.003448e+00*u +8.394124e-03*d/dx(u^2 u_x) -5.285009e-04*d/dx(u u_x u_xx) -1.006155e+00*u^2
+gene: [[1], [0, 0, 2], [0, 3], [1, 2, 2], [0], [0, 0, 1], [0, 1, 2], [0, 0]]
+gene_diff: [[0, 0], [0, 2], [0, 1], [0, 2], [0, 0], [0, 1], [0, 1], [0, 0]]
+coef: [-0.9999380590033978, 0.00021626532311083335, -0.00016420639299916115, 6.373515158541413e-09, 1.0034482547943533, 0.00839412382483765, -0.0005285009294393487, -1.0061553998226067]
+
+case: case_039
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_039_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.01, 'k': 0.2, 'Pe': 100.0, 'Da': 0.2}
+fitness: 1.6098558290e-04
+equation:
+u_t = -1.000065e+00*u_x +2.000462e-01*u -1.968768e-05*d/dx(u u_xx) +1.004103e-02*u_xx -1.999510e-01*u^2
+gene: [[1], [0], [0, 2], [2], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 1], [0, 0], [0, 0]]
+coef: [-1.0000651623769339, 0.20004620969878048, -1.9687677825544638e-05, 0.010041033876717623, -0.19995098809578588]
+
+case: case_040
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_040_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.01, 'k': 0.5, 'Pe': 100.0, 'Da': 0.5}
+fitness: 2.4041756931e-04
+equation:
+u_t = 1.002785e-02*u_xx +5.004780e-01*u +5.045779e-07*d^2 / dx^2(u u_xx) -9.987751e-01*u_x -5.020092e-01*u^2 -1.544806e-07*d^2 / dx^2(u u_x^2 u_xx)
+gene: [[2], [0], [0, 2], [1], [0, 0], [0, 1, 1, 2]]
+gene_diff: [[0, 0], [0, 0], [0, 2], [0, 0], [0, 0], [0, 2]]
+coef: [0.010027846598401245, 0.5004779524833066, 5.045779277327643e-07, -0.9987750539750996, -0.5020091653370813, -1.5448064769231791e-07]
+
+case: case_041
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_041_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.01, 'k': 1.0, 'Pe': 100.0, 'Da': 1.0}
+fitness: 2.2119902291e-04
+equation:
+u_t = 1.015274e-02*u_xx -4.900936e-09*d^3 / dx^3(u u_xxx) -5.510731e-02*u^3 -9.242879e-01*u^2 +9.746179e-01*u -9.991769e-01*u_x
+gene: [[2], [0, 3], [0, 0, 0], [0, 0], [0], [1]]
+gene_diff: [[0, 0], [0, 3], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.010152740983098778, -4.900935794928288e-09, -0.05510730830000043, -0.9242879135404857, 0.9746179436275847, -0.9991769084392503]
+
+case: case_042
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_042_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.02, 'k': 0.2, 'Pe': 50.0, 'Da': 0.2}
+fitness: 2.0083847692e-04
+equation:
+u_t = 2.567496e-02*d^2 / dx^2(u) -9.994974e-01*u_x +1.399781e-01*u^2 +2.812281e-05*d^2 / dx^2(u_xx)
+gene: [[0], [1], [0, 0], [2]]
+gene_diff: [[0, 2], [0, 0], [0, 0], [0, 2]]
+coef: [0.025674961888223467, -0.9994974141247662, 0.13997806165775092, 2.8122811943272066e-05]
+
+case: case_043
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_043_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.02, 'k': 0.5, 'Pe': 50.0, 'Da': 0.5}
+fitness: 3.1400269579e-04
+equation:
+u_t = 5.063543e-05*d^2 / dx^2(u_xx) -1.068759e-03*u_x u_xx +3.109125e-01*u^2 -9.991649e-01*d/dx(u) +3.314712e-02*d/dx(u_x)
+gene: [[2], [1, 2], [0, 0], [0], [1]]
+gene_diff: [[0, 2], [0, 0], [0, 0], [0, 1], [0, 1]]
+coef: [5.0635431245148816e-05, -0.0010687593210666187, 0.31091254596288104, -0.999164854920476, 0.03314711874733716]
+
+case: case_044
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_044_ann_metadata.npz
+variables: {'U': 1.0, 'L': 1.0, 'D': 0.02, 'k': 1.0, 'Pe': 50.0, 'Da': 1.0}
+fitness: 1.4028113920e-04
+equation:
+u_t = -1.049337e+00*u^2 -1.000079e+00*u_x +1.932640e-02*u_xx +1.033374e+00*u
+gene: [[0, 0], [1], [2], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-1.0493369249925617, -1.0000785039053066, 0.019326403409324303, 1.0333744302614114]
+
+case: case_045
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_045_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.005, 'k': 0.2, 'Pe': 400.0, 'Da': 0.4}
+fitness: 1.1055354326e-04
+equation:
+u_t = 4.065937e-01*u -4.098846e-01*u^2 -9.991186e-01*u_x +2.439842e-03*u_xx
+gene: [[0], [0, 0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.4065936817837996, -0.4098846359400606, -0.9991185544699271, 0.002439841608398935]
+
+case: case_046
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_046_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.005, 'k': 0.5, 'Pe': 400.0, 'Da': 1.0}
+fitness: 1.5554192769e-04
+equation:
+u_t = 9.996966e-01*u -1.000090e+00*u^2 -2.616061e-03*u u_x +2.456450e-03*u_xx -9.973290e-01*u_x
+gene: [[0], [0, 0], [0, 1], [2], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.9996965697131635, -1.0000900826591765, -0.0026160606205870227, 0.002456450170042546, -0.997329038250368]
+
+case: case_047
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_047_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.005, 'k': 1.0, 'Pe': 400.0, 'Da': 2.0}
+fitness: 1.2800764000e-04
+equation:
+u_t = -9.982087e-01*u_x -1.998844e+00*u^2 +1.999094e+00*u +2.492173e-03*u_xx
+gene: [[1], [0, 0], [0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9982086888892728, -1.998844245130404, 1.999093641123375, 0.0024921728118855917]
+
+case: case_048
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_048_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.01, 'k': 0.2, 'Pe': 200.0, 'Da': 0.4}
+fitness: 1.6680668362e-04
+equation:
+u_t = -9.992144e-01*u_x -3.861957e-01*u^2 +5.484860e-03*u_xx +4.915961e-06*d/dx(u u_xxx) +3.921847e-01*u
+gene: [[1], [0, 0], [2], [0, 3], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 1], [0, 0]]
+coef: [-0.9992143704131237, -0.3861957142419944, 0.005484860396242387, 4.915961484602517e-06, 0.39218473664554276]
+
+case: case_049
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_049_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.01, 'k': 0.5, 'Pe': 200.0, 'Da': 1.0}
+fitness: 1.2307110162e-04
+equation:
+u_t = 1.020621e+00*u +4.801015e-03*u_xx -9.989360e-01*u_x -1.030929e+00*u^2
+gene: [[0], [2], [1], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [1.0206206384611354, 0.004801014911915071, -0.9989359645591553, -1.0309288350615111]
+
+case: case_050
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_050_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.01, 'k': 1.0, 'Pe': 200.0, 'Da': 2.0}
+fitness: 1.2692585719e-04
+equation:
+u_t = 4.891346e-03*u_xx -9.985543e-01*u_x +2.004288e+00*u -2.005534e+00*u^2
+gene: [[2], [1], [0], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.004891346318971458, -0.9985542861004466, 2.0042884668802543, -2.005533981141739]
+
+case: case_051
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_051_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.02, 'k': 0.2, 'Pe': 100.0, 'Da': 0.4}
+fitness: 1.6310440775e-04
+equation:
+u_t = -9.993317e-01*u_x -6.666058e-04*d/dx(u u_x) +4.145122e-01*u -4.234813e-01*u^2 +1.011359e-02*u_xx
+gene: [[1], [0, 1], [0], [0, 0], [2]]
+gene_diff: [[0, 0], [0, 1], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9993317387536101, -0.0006666058289906724, 0.41451215027801536, -0.4234813465000138, 0.01011358572586696]
+
+case: case_052
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_052_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.02, 'k': 0.5, 'Pe': 100.0, 'Da': 1.0}
+fitness: 1.8915918891e-04
+equation:
+u_t = 2.146126e-06*d^2 / dx^2(u u_xx) -1.000257e+00*u^2 +1.012623e-02*u_xx +1.000364e+00*u -2.817105e-05*d^2 / dx^2(u u_x) -1.000365e+00*u_x
+gene: [[0, 2], [0, 0], [2], [0], [0, 1], [1]]
+gene_diff: [[0, 2], [0, 0], [0, 0], [0, 0], [0, 2], [0, 0]]
+coef: [2.1461256621383724e-06, -1.0002565998981419, 0.010126233564118594, 1.0003640378717704, -2.81710542528797e-05, -1.00036470137819]
+
+case: case_053
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_053_ann_metadata.npz
+variables: {'U': 1.0, 'L': 2.0, 'D': 0.02, 'k': 1.0, 'Pe': 100.0, 'Da': 2.0}
+fitness: 1.4709124401e-04
+equation:
+u_t = 9.893565e-03*u_xx -9.986282e-01*u_x +2.004214e+00*u -2.005298e+00*u^2
+gene: [[2], [1], [0], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.00989356476712182, -0.9986281673916707, 2.0042143940090718, -2.005297810257453]
+
+case: case_054
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_054_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.005, 'k': 0.2, 'Pe': 200.0, 'Da': 0.05}
+fitness: 1.0798814939e-04
+equation:
+u_t = -1.000868e+00*d/dx(u) +5.237098e-03*d/dx(u_x) +3.184306e-02*u^2
+gene: [[0], [1], [0, 0]]
+gene_diff: [[0, 1], [0, 1], [0, 0]]
+coef: [-1.0008679979873174, 0.0052370979449665135, 0.03184305699545695]
+
+case: case_055
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_055_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.005, 'k': 0.5, 'Pe': 200.0, 'Da': 0.125}
+fitness: 1.1811987796e-04
+equation:
+u_t = 5.184035e-02*u +5.606424e-03*u_xx -9.995151e-01*u_x
+gene: [[0], [2], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.0518403539832232, 0.0056064243603634635, -0.9995150604230821]
+
+case: case_056
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_056_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.005, 'k': 1.0, 'Pe': 200.0, 'Da': 0.25}
+fitness: 1.2323733040e-04
+equation:
+u_t = 4.869507e-03*u_xx -9.983131e-01*u_x -2.627399e-01*u^2 +2.579039e-01*u
+gene: [[2], [1], [0, 0], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.004869507315919807, -0.9983130546769697, -0.262739853829977, 0.257903911239058]
+
+case: case_057
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_057_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.01, 'k': 0.2, 'Pe': 100.0, 'Da': 0.05}
+fitness: 8.5284631713e-05
+equation:
+u_t = 2.071964e-02*u -9.998835e-01*u_x +1.029366e-02*u_xx
+gene: [[0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.020719641941960482, -0.9998835129995525, 0.010293661670543646]
+
+case: case_058
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_058_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.01, 'k': 0.5, 'Pe': 100.0, 'Da': 0.125}
+fitness: 1.2879266061e-04
+equation:
+u_t = 9.873690e-03*u_xx -9.988688e-01*u_x +1.312762e-01*u -1.358035e-01*u^2
+gene: [[2], [1], [0], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.00987369010639581, -0.9988688375176885, 0.13127617998573501, -0.13580345514517425]
+
+case: case_059
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_059_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.01, 'k': 1.0, 'Pe': 100.0, 'Da': 0.25}
+fitness: 1.6347491384e-04
+equation:
+u_t = -2.585208e-01*u^2 +9.873009e-03*u_xx +2.546615e-01*u -9.990846e-01*u_x -2.623274e-06*d/dx(u_x u_xx)
+gene: [[0, 0], [2], [0], [1], [1, 2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 1]]
+coef: [-0.25852075906042665, 0.009873009198605535, 0.2546614828918298, -0.9990846095596714, -2.623274334801504e-06]
+
+case: case_060
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_060_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.02, 'k': 0.2, 'Pe': 50.0, 'Da': 0.05}
+fitness: 1.2910695901e-04
+equation:
+u_t = 2.059739e-02*u_xx -9.998162e-01*u_x +2.108185e-02*u
+gene: [[2], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.020597389044556658, -0.9998161522860879, 0.021081846163571793]
+
+case: case_061
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_061_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.02, 'k': 0.5, 'Pe': 50.0, 'Da': 0.125}
+fitness: 2.0289535079e-04
+equation:
+u_t = 1.882270e-05*d^2 / dx^2(u_xx) -9.986228e-01*u_x +2.389890e-02*d^2 / dx^2(u) +8.902410e-02*u^2
+gene: [[2], [1], [0], [0, 0]]
+gene_diff: [[0, 2], [0, 0], [0, 2], [0, 0]]
+coef: [1.882269735317934e-05, -0.998622757729429, 0.02389890285122411, 0.08902410412082304]
+
+case: case_062
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_062_ann_metadata.npz
+variables: {'U': 2.0, 'L': 0.5, 'D': 0.02, 'k': 1.0, 'Pe': 50.0, 'Da': 0.25}
+fitness: 1.4563776235e-04
+equation:
+u_t = 2.649928e-01*u -2.748298e-01*u^2 +1.975435e-02*u_xx -9.996511e-01*u_x
+gene: [[0], [0, 0], [2], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.2649928363626866, -0.2748298043880481, 0.019754354966261056, -0.9996511286658125]
+
+case: case_063
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_063_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.005, 'k': 0.2, 'Pe': 400.0, 'Da': 0.1}
+fitness: 1.1960478423e-04
+equation:
+u_t = 2.561519e-03*u_xx -9.259357e-02*u^2 -9.991168e-01*u_x +9.640570e-02*u
+gene: [[2], [0, 0], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.002561518561261224, -0.09259356665433059, -0.9991168491278062, 0.09640570290131185]
+
+case: case_064
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_064_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.005, 'k': 0.5, 'Pe': 400.0, 'Da': 0.25}
+fitness: 1.5427129811e-04
+equation:
+u_t = -2.333597e-01*u^2 +2.377987e-01*u +2.836906e-04*u u_x -9.984461e-01*u_x +2.552883e-03*u_xx
+gene: [[0, 0], [0], [0, 1], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.23335969635606, 0.23779872819110473, 0.0002836905917487745, -0.9984460744250897, 0.0025528830667930734]
+
+case: case_065
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_065_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.005, 'k': 1.0, 'Pe': 400.0, 'Da': 0.5}
+fitness: 1.1679793307e-04
+equation:
+u_t = -9.992840e-01*u_x +5.011351e-01*u -5.022844e-01*u^2 +2.492373e-03*u_xx
+gene: [[1], [0], [0, 0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.999283959653475, 0.5011350825245046, -0.5022844126514401, 0.0024923733026152276]
+
+case: case_066
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_066_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.01, 'k': 0.2, 'Pe': 200.0, 'Da': 0.1}
+fitness: 9.5685588796e-05
+equation:
+u_t = 3.576935e-02*u -9.993797e-01*u_x +5.335942e-03*u_xx
+gene: [[0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.03576934645196446, -0.9993796882840315, 0.005335942135341597]
+
+case: case_067
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_067_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.01, 'k': 0.5, 'Pe': 200.0, 'Da': 0.25}
+fitness: 2.1027538722e-04
+equation:
+u_t = 8.831240e-02*u +5.658431e-03*u_xx -9.991511e-01*u_x
+gene: [[0], [2], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.08831240137671345, 0.005658431427748795, -0.9991510993602826]
+
+case: case_068
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_068_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.01, 'k': 1.0, 'Pe': 200.0, 'Da': 0.5}
+fitness: 1.5470361238e-04
+equation:
+u_t = 2.304383e-06*d^2 / dx^2(u u_xx) -4.946390e-01*u^2 +4.966152e-01*u -9.989247e-01*u_x +5.187421e-03*u_xx
+gene: [[0, 2], [0, 0], [0], [1], [2]]
+gene_diff: [[0, 2], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [2.3043831573432276e-06, -0.49463899863820276, 0.4966152490756091, -0.9989247105555258, 0.005187421416363596]
+
+case: case_069
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_069_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.02, 'k': 0.2, 'Pe': 100.0, 'Da': 0.1}
+fitness: 1.2253613735e-04
+equation:
+u_t = 1.034351e-02*u_xx -9.989771e-01*u_x +4.045198e-02*u
+gene: [[2], [1], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0]]
+coef: [0.010343510944802833, -0.9989771152700064, 0.04045197851771301]
+
+case: case_070
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_070_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.02, 'k': 0.5, 'Pe': 100.0, 'Da': 0.25}
+fitness: 1.4248417360e-04
+equation:
+u_t = 2.482246e-01*u -2.468214e-01*u^2 -9.996889e-01*u_x +9.945478e-03*u_xx
+gene: [[0], [0, 0], [1], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.24822457919276045, -0.24682142487448222, -0.9996888962855237, 0.009945478093128427]
+
+case: case_071
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_071_ann_metadata.npz
+variables: {'U': 2.0, 'L': 1.0, 'D': 0.02, 'k': 1.0, 'Pe': 100.0, 'Da': 0.5}
+fitness: 1.4429992713e-04
+equation:
+u_t = 1.007652e-02*u_xx -4.917987e-01*u^2 +4.943546e-01*u -9.992763e-01*u_x
+gene: [[2], [0, 0], [0], [1]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.010076523872430911, -0.49179867230758956, 0.4943545880015354, -0.9992762722960993]
+
+case: case_072
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_072_ann_metadata.npz
+variables: {'U': 2.0, 'L': 2.0, 'D': 0.01, 'k': 0.2, 'Pe': 400.0, 'Da': 0.2}
+fitness: 1.8454972595e-04
+equation:
+u_t = -4.610339e-01*u^3 -1.000140e+00*d/dx(u) +2.769426e-03*u_xx +4.289073e-01*u^2
+gene: [[0, 0, 0], [0], [2], [0, 0]]
+gene_diff: [[0, 0], [0, 1], [0, 0], [0, 0]]
+coef: [-0.4610339330425491, -1.0001401293411663, 0.002769425607608141, 0.42890733663810177]
+
+case: case_073
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_073_ann_metadata.npz
+variables: {'U': 2.0, 'L': 2.0, 'D': 0.01, 'k': 0.5, 'Pe': 400.0, 'Da': 0.5}
+fitness: 1.1872204742e-04
+equation:
+u_t = 5.006211e-01*u -9.987569e-01*u_x +2.459204e-03*u_xx -5.019810e-01*u^2
+gene: [[0], [1], [2], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.5006210553151612, -0.9987568987362861, 0.0024592044323097444, -0.5019810459883478]
+
+case: case_074
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_074_ann_metadata.npz
+variables: {'U': 2.0, 'L': 2.0, 'D': 0.01, 'k': 1.0, 'Pe': 400.0, 'Da': 1.0}
+fitness: 1.1539574588e-04
+equation:
+u_t = 1.000642e+00*u +2.458952e-03*u_xx -9.987945e-01*u_x -1.001520e+00*u^2
+gene: [[0], [2], [1], [0, 0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [1.0006419697435749, 0.0024589521353143248, -0.9987944956289424, -1.001519656591069]
+
+case: case_075
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_075_ann_metadata.npz
+variables: {'U': 2.0, 'L': 2.0, 'D': 0.02, 'k': 0.2, 'Pe': 200.0, 'Da': 0.2}
+fitness: 1.1984428268e-04
+equation:
+u_t = -9.987921e-01*u_x -1.973130e-01*u^2 +4.986929e-03*u_xx +1.976940e-01*u
+gene: [[1], [0, 0], [2], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.9987920933014832, -0.19731296014538563, 0.004986929346138244, 0.19769403182299683]
+
+case: case_076
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_076_ann_metadata.npz
+variables: {'U': 2.0, 'L': 2.0, 'D': 0.02, 'k': 0.5, 'Pe': 200.0, 'Da': 0.5}
+fitness: 1.9697543166e-04
+equation:
+u_t = -3.747615e-04*u^2 u_xx -9.990114e-01*u_x +4.948416e-01*u -4.957019e-01*u^2 +5.071725e-03*u_xx
+gene: [[0, 0, 2], [1], [0], [0, 0], [2]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [-0.00037476152958434907, -0.9990114202224042, 0.4948415898377873, -0.49570186777354197, 0.00507172486427859]
+
+case: case_077
+metadata: e:\python_project\Discovery_of_dimensionless_variable\Reaction-advection-diffusion-Pe-Da\data\discovery_metadata\case_077_ann_metadata.npz
+variables: {'U': 2.0, 'L': 2.0, 'D': 0.02, 'k': 1.0, 'Pe': 200.0, 'Da': 1.0}
+fitness: 1.2386090882e-04
+equation:
+u_t = 5.068598e-03*u_xx -9.990482e-01*u_x -9.937485e-01*u^2 +9.954068e-01*u
+gene: [[2], [1], [0, 0], [0]]
+gene_diff: [[0, 0], [0, 0], [0, 0], [0, 0]]
+coef: [0.005068598325884113, -0.9990481765511513, -0.9937485270671439, 0.9954067725728543]

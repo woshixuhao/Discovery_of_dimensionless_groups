@@ -1,0 +1,17 @@
+source_log: E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\rad_dimensionless_discovery_coef_3_u_xx.txt
+source_dataset: E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\rad_dimensionless_dataset_coef_3_u_xx.npz
+coefficient: coef_3
+term: u_xx
+selection: final selected best candidate (historical filename retained)
+metric: poly_r2
+combined_alpha: ['1', '1', '-1', '0']
+combined_form: U * L / (D)
+beta_formula: (U * L / (D))
+polynomial_degree: 1
+log_equation: log(abs(coef_3)) = -0.0451232014352 -0.992112580773*log(Pi)^1
+equation: coef_3 = +1 * exp(-0.0451232014352 -0.992112580773*log(Pi)^1)
+sign_consistent: True
+fit_split: 80% train / 20% test, seed=42; fit on training rows only
+r2_log_train: 0.999448656167
+r2_log_test: 0.999648438642
+r2_raw_test: 0.999544679288

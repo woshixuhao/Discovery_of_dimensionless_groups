@@ -1,0 +1,180 @@
+[RAD] Dimensionless discovery for coef_3 (u_xx)
+[RAD] Source dataset = E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\data\dimensionless_dataset\dimensionless_coefficients.csv
+[RAD] Saved coefficient dataset = E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\rad_dimensionless_dataset_coef_3_u_xx.npz
+[RAD] X columns = ['U', 'L', 'D', 'k']
+[RAD] y column  = coef_3
+[RAD] target   = log(abs(coef))
+[RAD] valid rows = 78/78
+[RAD] candidates = ['U^2 / (D * k)', 'U * L / (D)', 'U / (L * k)', 'L^2 * k / (D)', 'U^3 / (L * D * k^2)', 'U^3 * L / (D^2 * k)']
+
+Classic exponent set = ['-3', '-2', '-3/2', '-1', '-1/2', '0', '1/2', '1', '3/2', '2', '3']
+R2 threshold         = 0.9950
+Beta search mode     = accelerated
+classic max active   = 2
+Step 3 refine top-M  = 500
+Regression split = 80% train / 20% test | train=62, test=16, seed=42
+[Accelerated Step 2] beta checked=121, valid=60, retained=60, supports checked=0, supports pruned=0
+
+================================================================================
+Step 2 | Linear/log-linear screening of total pi (ranked by test R2)
+================================================================================
+ranking score = test R2 - 0.01 * complexity
+display: collinear beta (scalar multiples) collapsed to the best rank score
+listed beta are pairwise non-collinear
+
+Rank 1
+  train R2       = 0.999449
+  test R2        = 0.999648
+  complexity     = 0.000000
+  rank score     = 0.999648  (test R2 - 0.01 * complexity)
+  beta           = ['0', '1']
+  beta formula   = (U * L / (D))
+  combined alpha = ['1', '1', '-1', '0']
+  combined form  = U * L / (D)
+
+Rank 2
+  train R2       = 0.976667
+  test R2        = 0.939177
+  complexity     = 3.650000
+  rank score     = 0.902677  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '3']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^3
+  combined alpha = ['4', '3', '-7/2', '-1/2']
+  combined form  = U^4 * L^3 / (D^7/2 * k^1/2)
+
+Rank 3
+  train R2       = 0.955708
+  test R2        = 0.885096
+  complexity     = 2.650000
+  rank score     = 0.858596  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '2']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^2
+  combined alpha = ['3', '2', '-5/2', '-1/2']
+  combined form  = U^3 * L^2 / (D^5/2 * k^1/2)
+
+Rank 4
+  train R2       = 0.955432
+  test R2        = 0.887602
+  complexity     = 3.650000
+  rank score     = 0.851102  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '-3']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^-3
+  combined alpha = ['-2', '-3', '5/2', '-1/2']
+  combined form  = D^5/2 / (U^2 * L^3 * k^1/2)
+
+Rank 5
+  train R2       = 0.932713
+  test R2        = 0.827222
+  complexity     = 2.200000
+  rank score     = 0.805222  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '3/2']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^3/2
+  combined alpha = ['5/2', '3/2', '-2', '-1/2']
+  combined form  = U^5/2 * L^3/2 / (D^2 * k^1/2)
+
+[Step 3] Polynomial refinement evaluated 60/60 beta candidates.
+
+================================================================================
+Step 3 | Polynomial regression refinement (ranked by test R2)
+================================================================================
+ranking score = test R2 - 0.01 * complexity
+display: collinear beta (scalar multiples) collapsed to the best rank score
+listed beta are pairwise non-collinear
+
+Rank 1
+  train R2       = 0.999449
+  test R2        = 0.999648
+  complexity     = 0.000000
+  rank score     = 0.999648  (test R2 - 0.01 * complexity)
+  beta           = ['0', '1']
+  beta formula   = (U * L / (D))
+  combined alpha = ['1', '1', '-1', '0']
+  combined form  = U * L / (D)
+  poly degree    = 1
+
+Rank 2
+  train R2       = 0.976667
+  test R2        = 0.939177
+  complexity     = 3.650000
+  rank score     = 0.902677  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '3']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^3
+  combined alpha = ['4', '3', '-7/2', '-1/2']
+  combined form  = U^4 * L^3 / (D^7/2 * k^1/2)
+  poly degree    = 1
+
+Rank 3
+  train R2       = 0.955708
+  test R2        = 0.885096
+  complexity     = 2.650000
+  rank score     = 0.858596  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '2']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^2
+  combined alpha = ['3', '2', '-5/2', '-1/2']
+  combined form  = U^3 * L^2 / (D^5/2 * k^1/2)
+  poly degree    = 1
+
+Rank 4
+  train R2       = 0.955432
+  test R2        = 0.887602
+  complexity     = 3.650000
+  rank score     = 0.851102  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '-3']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^-3
+  combined alpha = ['-2', '-3', '5/2', '-1/2']
+  combined form  = D^5/2 / (U^2 * L^3 * k^1/2)
+  poly degree    = 1
+
+Rank 5
+  train R2       = 0.932713
+  test R2        = 0.827222
+  complexity     = 2.200000
+  rank score     = 0.805222  (test R2 - 0.01 * complexity)
+  beta           = ['1/2', '3/2']
+  beta formula   = (U^2 / (D * k))^1/2 * (U * L / (D))^3/2
+  combined alpha = ['5/2', '3/2', '-2', '-1/2']
+  combined form  = U^5/2 * L^3/2 / (D^2 * k^1/2)
+  poly degree    = 1
+
+================================================================================
+Final selected total dimensionless number
+================================================================================
+selection rule  = best one-pi polynomial/log-linear candidate
+method          = poly
+train R2        = 0.999449
+test R2         = 0.999648
+threshold       = 0.995000
+complexity      = 0.000000
+rank score      = 0.999648
+beta            = ['0', '1']
+beta formula    = (U * L / (D))
+combined alpha  = ['1', '1', '-1', '0']
+combined formula= U * L / (D)
+
+================================================================================
+RAD coefficient dimensionless discovery summary
+================================================================================
+coefficient: coef_3
+term: u_xx
+classification: variable_related
+X: ['U', 'L', 'D', 'k']
+y: coef_3
+target_transform: log(abs(coef))
+dominant_sign: 1.0
+sign_consistent: True
+positive_count: 78
+negative_count: 0
+valid_rows: 78
+candidate_dimensionless_numbers:
+  Pi_1: alpha=(2, 0, -1, -1), formula=U^2 / (D * k)
+  Pi_2: alpha=(1, 1, -1, 0), formula=U * L / (D)
+  Pi_3: alpha=(1, -1, 0, -1), formula=U / (L * k)
+  Pi_4: alpha=(0, 2, -1, 1), formula=L^2 * k / (D)
+  Pi_5: alpha=(3, -1, -1, -2), formula=U^3 / (L * D * k^2)
+  Pi_6: alpha=(3, 1, -2, -1), formula=U^3 * L / (D^2 * k)
+selected: ['Pi_1', 'Pi_2']
+
+result:
+kind: one
+row: {'beta': (Fraction(0, 1), Fraction(1, 1)), 'linear_r2': 0.9996484386423284, 'linear_train_r2': 0.9994486561667338, 'linear_test_r2': 0.9996484386423284, 'complexity': 0.0, 'metric_key': 'poly_r2', 'metric_value': 0.9996484386423284, 'poly_r2': 0.9996484386423284, 'poly_train_r2': 0.9994486561667338, 'poly_test_r2': 0.9996484386423284, 'poly_degree': 1}
+beta_formula: (U * L / (D))

@@ -1,0 +1,17 @@
+source_log: E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\rad_dimensionless_discovery_coef_0_u.txt
+source_dataset: E:\python_project\Discovery_of_dimensionless_variable\Uploaded_RAD_code\discovery_results\rad_dimensionless_dataset_coef_0_u.npz
+coefficient: coef_0
+term: u
+selection: final selected best candidate (historical filename retained)
+metric: poly_r2
+combined_alpha: ['1', '-1', '0', '-1']
+combined_form: U / (L * k)
+beta_formula: (U^2 / (D * k)) * (U * L / (D))^-1
+polynomial_degree: 1
+log_equation: log(abs(coef_0)) = +0.0223968526231 -0.984184159486*log(Pi)^1
+equation: coef_0 = +1 * exp(+0.0223968526231 -0.984184159486*log(Pi)^1)
+sign_consistent: True
+fit_split: 80% train / 20% test, seed=42; fit on training rows only
+r2_log_train: 0.976506714246
+r2_log_test: 0.993861700418
+r2_raw_test: 0.999778908389
